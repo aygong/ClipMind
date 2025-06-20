@@ -1,0 +1,24 @@
+working_trace: test
+openai:
+    api_key: To be added
+keyword_pool:
+  - Singing and Dancing
+  - Comedy
+  - Sports
+  - Anime and Comics
+  - Relationship
+  - Shows
+  - Lipsync
+  - Daily Life
+  - Beauty Care
+  - Games
+  - Society
+  - Outfit
+  - Cars
+  - Food
+  - Animals
+  - Family
+  - Drama
+  - Fitness and Health
+  - Education
+  - Technology
