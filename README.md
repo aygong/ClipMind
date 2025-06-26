@@ -3,7 +3,7 @@
 [Aoyu Gong](https://aygong.com/), [Sepehr Mousavi](https://sepehrmousavi.github.io/), [Yiting Xia](https://sites.google.com/view/yitingxia/), [Savvas Zannettou](https://zsavvas.github.io/)
 
 
-[[Paper](https://ojs.aaai.org/index.php/ICWSM/article/view/35838)] [[Citation](https://ojs.aaai.org/index.php/ICWSM/citationstylelanguage/download/bibtex?submissionId=35838&publicationId=34111)]
+[[Paper](https://ojs.aaai.org/index.php/ICWSM/article/view/35838)] [[Slides](https://aygong.com/docu/icwsm25slides.pdf)] [[Citation](https://ojs.aaai.org/index.php/ICWSM/citationstylelanguage/download/bibtex?submissionId=35838&publicationId=34111)]
 
 
 ## 🧭 Overview
@@ -19,6 +19,8 @@ This repository contains the code for our paper:
 
 
 ## 🔧 Environment Setup
+
+> 💡 If you have Conda installed, you may skip this section and proceed to the next one.
 
 Follow these steps to set up a reproducible environment:
 
@@ -75,7 +77,7 @@ pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 --extra-index-u
 ```bash
 conda install -c conda-forge ffmpeg=4.3.1 git-lfs
 ```
-> 💡 **Note**: FFmpeg version 4 is required for compatibility.
+> 💡 FFmpeg version 4 is required for compatibility.
 
 
 ## ⚙️ Edit Configuration
@@ -84,7 +86,7 @@ Update the following fields:
 - `openai.api_key`: Insert your OpenAI API key.
 - `working_trace`: Path to your short-format video trace directory.
 
-> A default `test` trace is provided for demonstration purposes.
+> 💡 A default `test` trace is provided for demonstration purposes.
 
 
 ## 📂 Add Your Own Trace
@@ -99,7 +101,7 @@ To analyze your short-format video traces, organize your data using the followin
         └── viewing.json        # A JSON file with timestamped viewing history
 ```
 
-> A default `test` trace is provided for demonstration purposes.
+> 💡 A default `test` trace is provided for demonstration purposes.
 
 
 ## 🔁 Two-Phase Workflow
@@ -129,7 +131,7 @@ The following list outlines the recommended notebook execution order across the 
 10. `identify_best_features_threshold.ipynb`
 11. `video_sequence_analysis.ipynb`
 
-> Use Jupyter or VSCode to execute notebooks interactively.
+> 💡 Use Jupyter or VSCode to execute notebooks interactively.
 
 For the two phases, run different subsets of notebooks depending on whether you are identifying the best parameters or analyzing new traces: 
 - **Prepare AI Models**:
